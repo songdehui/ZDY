@@ -8,4 +8,5 @@ package com.example.thinkpad.yuyinbobao;
  */
 public class YuYin {
 //    这个类就是没有用
+//
 }
