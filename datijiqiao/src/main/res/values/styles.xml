@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="EmptyWidget"></style>
+
+    <style name="AnswerSkill_Layout" parent="@style/EmptyWidget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:onClick">itemClick</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/selector</item>
+    </style>
+
+    <style name="AnswerSkill_Item" parent="Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+
+        <item name="android:gravity">center_vertical</item>
+
+    </style>
+
+    <style name="AnswerSkill_Label" parent="Widget.TextView">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#3682bc</item>
+
+    </style>
+
+    <style name="Widget.TextView" parent="@android:style/Widget.TextView">
+    </style>
+</resources>

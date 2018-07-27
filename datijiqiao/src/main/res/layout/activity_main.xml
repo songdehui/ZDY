@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="答题技巧" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="教练总结,让你事半功倍" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:divider="@drawable/shape"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:showDividers="middle">
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="anquan.html"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="1" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="安全距离题巧记" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="bazhong.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="2" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="八种交警手势信号口诀" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="chufa.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="3" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="处罚相关题巧记" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="fakuan.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="4" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="罚款金额题巧记" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="jiaogui.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="5" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="交规相关技巧" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="riqi.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="6" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="日期类题巧记" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="yihun.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="7" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="易混淆知识汇总" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="zuidi.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="8" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="最低最高时速题巧记" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="最新法规"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:divider="@drawable/shape"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:showDividers="middle">
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="2015.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="1" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="2017新交规扣分标准" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/AnswerSkill_Layout"
+                android:tag="jiujia.html">
+
+                <TextView
+                    style="@style/AnswerSkill_Label"
+                    android:text="2" />
+
+                <TextView
+                    style="@style/AnswerSkill_Item"
+                    android:text="酒驾新规" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
