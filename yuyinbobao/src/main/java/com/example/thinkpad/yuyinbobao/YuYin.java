@@ -7,4 +7,5 @@ package com.example.thinkpad.yuyinbobao;
  * tel: 15836320932
  */
 public class YuYin {
+//    这个类就是没有用
 }
